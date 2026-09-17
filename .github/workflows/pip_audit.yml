@@ -9,3 +9,16 @@ jobs:
   pip_audit:
     uses: OpenVoiceOS/gh-automations/.github/workflows/pip-audit.yml@dev
     secrets: inherit
+    with:
+      # T-2377: ids the audit reports at dev with no floor that can fix them.
+      # Review the list when chromadb publishes a release after 1.5.9.
+      # PYSEC-2026-311, PYSEC-2026-3813, PYSEC-2026-3814, PYSEC-2026-3815:
+      #   chromadb 1.5.9 is the latest release, no advisory names a fix.
+      # The first id is the shared default. A caller value replaces the
+      # default, so it is repeated here.
+      ignore_vulns: |
+        GHSA-r9hx-vwmv-q579
+        PYSEC-2026-311
+        PYSEC-2026-3813
+        PYSEC-2026-3814
+        PYSEC-2026-3815
