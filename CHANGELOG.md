@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0a6](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/tree/0.3.0a6) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/compare/0.3.0a5...0.3.0a6)
+
+**Merged pull requests:**
+
+- chore\(ci\): drop the broken Dependabot config [\#27](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/pull/27) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.0a5](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/tree/0.3.0a5) (2026-09-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/compare/0.3.0a4...0.3.0a5)
