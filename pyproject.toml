@@ -12,9 +12,11 @@ authors = [{name = "jarbasai", email = "jarbasai@mailfence.com"}]
 requires-python = ">=3.9"
 keywords = ["OVOS", "openvoiceos", "plugin", "chromadb", "embeddings"]
 dependencies = [
-    "ovos-plugin-manager>=2.1.0,<3.0.0",
+    "ovos-plugin-manager>=2.1.0",
     "numpy",
     "chromadb",
+    # chromadb's HTTP client reads httpx.Limits, which httpx 1.0 removed.
+    "httpx<1.0",
 ]
 
 [project.optional-dependencies]
