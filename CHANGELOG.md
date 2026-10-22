@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.1a1](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/tree/0.3.1a1) (2026-10-22)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/compare/0.3.0a6...0.3.1a1)
+
+**Merged pull requests:**
+
+- fix\(deps\): accept ovos-plugin-manager 3 and cap httpx below 1.0 [\#29](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/pull/29) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.3.0a6](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/tree/0.3.0a6) (2026-09-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-chromadb-embeddings-plugin/compare/0.3.0a5...0.3.0a6)
